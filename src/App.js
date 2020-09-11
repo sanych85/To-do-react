@@ -12,6 +12,10 @@ function App() {
       text: 'Разработать ToDo на ReactJS',
       completed: false,
     },
+    {
+      text: 'Добавить новое реакт приложение',
+      completed: false,
+    },
   ]);
 
   const onToggleCompleted = (index) => {
