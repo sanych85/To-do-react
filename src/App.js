@@ -16,6 +16,10 @@ function App() {
       text: 'Добавить новое реакт приложение',
       completed: false,
     },
+    {
+      text: 'Деплой приложения',
+      completed: false,
+    },
   ]);
 
   const onToggleCompleted = (index) => {
